@@ -1,7 +1,8 @@
 <?php
-    return [
-        'host' => 'news',
-        'name'=> 'root',
-        'user'=> 'root',
-        'password'=> '',
-    ];
+
+return [
+    'host' => 'localhost',
+    'name' => 'news',
+    'user' => 'root',
+    'pass' => '',
+];
