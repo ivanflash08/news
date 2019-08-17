@@ -1,2 +1,6 @@
 <p>Главная страница</p>
-<?php //debug($this->route['controller']); ?>
+
+<?php foreach ($news as $val): ?>
+<h3><?php echo $val['title']; ?></h3>
+<p><?php echo $val['text']; ?></p>
+<?php endforeach; ?>
