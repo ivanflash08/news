@@ -9,6 +9,5 @@ class Account {
 
     public function __construct()
     {
-        echo 'work221';
     }
 }
