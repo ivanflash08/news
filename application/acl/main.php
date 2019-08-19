@@ -2,7 +2,10 @@
 
 return [
     'all' => [
-        'main' => '',
+        'index',
+        'about',
+        'contact',
+        'post',
     ],
     'authorize' => [
 

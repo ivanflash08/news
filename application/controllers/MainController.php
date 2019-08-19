@@ -8,12 +8,20 @@ class MainController extends Controller
 {
     public function indexAction()
     {
-        $result = $this->model->getNews();
-        $vars = [
-            'news' => $result,
-        ];
-//        debug($result);
-        $this->view->render('Главная страница', $vars);
+        $this->view->render('Главная страница');
+    }
+
+    public function aboutAction()
+    {
+        $this->view->render('О нас');
+    }
+    public function contactAction()
+    {
+        $this->view->render('Написать админу');
+    }
+    public function postAction()
+    {
+        $this->view->render('Статья');
     }
 
 }
