@@ -2,84 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="127a1628-3406-484c-b7df-ec23c8d05985" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/application/config/admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/models/Admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/admin/posts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KARNIVOL-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KARNIVOL-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KARNIVOL-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KARNIVOL-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/League_Gothic-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/League_Gothic-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/League_Gothic-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/League_Gothic-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/SIL OFL Font License - Source Sans Pro.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/SIL Open Font License 1.1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro-Light-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro-Light-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro-Light-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro-Light-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/dodgv2i-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/dodgv2i-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/dodgv2i-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/dodgv2i-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/ethnocentric_rg-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/ethnocentric_rg-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/ethnocentric_rg-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/ethnocentric_rg-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/2s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/3s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/4s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/a1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/a2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/a3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/a4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bgdline.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bgdline.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/float.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/float2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/float3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pbs2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/slide1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/slide2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/slide3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/slide4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scripts/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scripts/jquery.nivo.slider.pack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scripts/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scripts/sliderJQuery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles/style404.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/acl/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/acl/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/core/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/core/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/core/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/core/View.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/Main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/errors/403.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/errors/403.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/errors/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/errors/404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/layouts/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/layouts/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/layouts/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/layouts/default.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/main/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/main/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/main/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/main/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/main/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/main/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/main/post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scripts/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/scripts/form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/core/Router.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/config/routes.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="608">
-              <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -124,11 +49,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+            <state relative-caret-position="499">
+              <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
               <folding>
                 <element signature="e#43#75#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/core/Router.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -167,7 +101,6 @@
         <option value="$PROJECT_DIR$/application/views/account/register.php" />
         <option value="$PROJECT_DIR$/application/views/catalog/403.php" />
         <option value="$PROJECT_DIR$/application/views/catalog/404.php" />
-        <option value="$PROJECT_DIR$/application/core/Router.php" />
         <option value="$PROJECT_DIR$/application/config/db.php" />
         <option value="$PROJECT_DIR$/application/lib/Db.php" />
         <option value="$PROJECT_DIR$/application/models/acount.php" />
@@ -213,8 +146,9 @@
         <option value="$PROJECT_DIR$/application/views/admin/add.php" />
         <option value="$PROJECT_DIR$/application/models/Admin.php" />
         <option value="$PROJECT_DIR$/application/views/admin/edit.php" />
-        <option value="$PROJECT_DIR$/application/controllers/AdminController.php" />
         <option value="$PROJECT_DIR$/application/config/routes.php" />
+        <option value="$PROJECT_DIR$/application/controllers/AdminController.php" />
+        <option value="$PROJECT_DIR$/application/core/Router.php" />
       </list>
     </option>
   </component>
@@ -264,6 +198,12 @@
               <item name="News" type="b2602c69:ProjectViewProjectNode" />
               <item name="News" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="News" type="b2602c69:ProjectViewProjectNode" />
+              <item name="News" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -271,13 +211,6 @@
               <item name="News" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="News" type="b2602c69:ProjectViewProjectNode" />
-              <item name="News" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="News" type="b2602c69:ProjectViewProjectNode" />
@@ -345,7 +278,7 @@
       <workItem from="1565787842520" duration="16647000" />
       <workItem from="1565878346236" duration="44311000" />
       <workItem from="1566207035244" duration="1396000" />
-      <workItem from="1566212986403" duration="47912000" />
+      <workItem from="1566212986403" duration="51432000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1565962789144</created>
@@ -396,11 +329,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566219675196</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="error {id:\d+}">
+      <created>1566400233724</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1566400233724</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110266000" />
+    <option name="totallyTimeSpent" value="113786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1696" height="1036" extended-state="6" />
@@ -409,10 +349,10 @@
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19437653" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.114025086" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.34435576" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32839224" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3295325" />
@@ -487,7 +427,8 @@
     <MESSAGE value="17.08 90%" />
     <MESSAGE value="MVS" />
     <MESSAGE value="addTemplate" />
-    <option name="LAST_COMMIT_MESSAGE" value="addTemplate" />
+    <MESSAGE value="error {id:\d+}" />
+    <option name="LAST_COMMIT_MESSAGE" value="error {id:\d+}" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/application/core/application/config/routes.php" />
@@ -593,13 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="15" column="23" lean-forward="true" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/Router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="45" column="47" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -793,16 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-          <folding>
-            <element signature="e#43#75#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/Admin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="656">
@@ -813,7 +737,24 @@
     <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
-          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+          <folding>
+            <element signature="e#43#75#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/Router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
         </state>
       </provider>
     </entry>

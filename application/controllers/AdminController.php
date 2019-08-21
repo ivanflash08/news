@@ -56,8 +56,8 @@ class AdminController extends Controller
 
     public function deleteAction()
     {
-        debug($this->route['id']);
-//        exit('Удалить пост');
+        debug($this->route);
+        exit('Удалить пост');
     }
 
     public function logoutAction()
