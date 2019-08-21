@@ -32,7 +32,7 @@ class View
 
     public function redirect($url)
     {
-        header('location:' . $url);
+        header('location: /' . $url);
         exit;
     }
 

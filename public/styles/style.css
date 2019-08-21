@@ -386,6 +386,7 @@ header{
 	vertical-align: top;
 	*display: inline;
 	zoom:1;
+	min-height: 200px;
 }
 #singlepost{
 	margin-right: 20px;
