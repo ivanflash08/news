@@ -25,10 +25,10 @@
         </div>
         <nav>
             <ul>
-                <li><a href="/" id="homenav">Home</a></li>
-                <li><a href="/post" id="fullwidthnav">Full width</a></li>
-                <li><a href="/contact" id="contactnav">Contact</a></li>
-                <li><a href="/about">About</a></li>
+                <li><a href="/" id="homenav">Главная</a></li>
+                <!--                <li><a href="/post" id="fullwidthnav">Full width</a></li>-->
+                <li><a href="/contact" id="contactnav">Обратная связь</a></li>
+                <li><a href="/about">О нас</a></li>
             </ul>
         </nav>
     </header>
@@ -58,54 +58,24 @@
         <div id="ourserv">
             <article>
                 <h1>Web Design</h1>
-                <img src="images/1.jpg" alt="" />
+                <img src="/public/images/1.jpg" alt="" />
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet.</p>
                 <a href="fullwidth.html" class="rm">Read More</a>
             </article>
             <article>
                 <h1>Graphic Design</h1>
-                <img src="images/2.jpg" alt="" />
+                <img src="/public/images/2.jpg" alt="" />
                 <p>Consectetuer adipiscing elit. Suspendisse enim elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit.</p>
                 <a href="fullwidth.html" class="rm">Read More</a>
             </article>
             <article class="lastarticle">
                 <h1>Web Development</h1>
-                <img src="images/3.jpg" alt="" />
+                <img src="/public/images/3.jpg" alt="" />
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit enim.</p>
                 <a href="fullwidth.html" class="rm">Read More</a>
             </article>
         </div>
-        <div id="sline">
-            <div class="sdline"></div>
-            <h1>Latest Projects</h1>
-            <div class="sdline"></div>
-        </div>
-        <div id="latestp">
-            <article>
-                <h1>Lorem Ipsum Dolor Sit</h1>
-                <img src="images/1s.jpg" alt="" />
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque.</p>
-                <a href="singlepost.html" class="rm">Read More</a>
-            </article>
-            <article>
-                <h1>Lorem Ipsum Dolor Sit</h1>
-                <img src="images/2s.jpg" alt="" />
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque.</p>
-                <a href="singlepost.html" class="rm">Read More</a>
-            </article>
-            <article>
-                <h1>Lorem Ipsum Dolor Sit</h1>
-                <img src="images/3s.jpg" alt="" />
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque.</p>
-                <a href="singlepost.html" class="rm">Read More</a>
-            </article>
-            <article class="lastarticle">
-                <h1>Lorem Ipsum Dolor Sit</h1>
-                <img src="images/4s.jpg" alt="" />
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque.</p>
-                <a href="singlepost.html" class="rm">Read More</a>
-            </article>
-        </div>
+
     </section>
     <!--__--__--__--__--  T H E    F O O T E R --__--__--__--___--__--__--__-->
     <footer>
