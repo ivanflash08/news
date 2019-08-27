@@ -24,8 +24,6 @@ class AdminController extends Controller
             if (!$this->model->loginValidate($_POST)) {
                 $this->view->message('error', $this->model->error);
             }
-            $_SESSION['admin'] = true;
-
             $this->view->location('admin/add');
         }
         $this->view->render('Вход');
@@ -37,7 +35,13 @@ class AdminController extends Controller
             if (!$this->model->postValidate($_POST, 'add')) {
                 $this->view->message('error', $this->model->error);
             }
-            $this->view->message('success', 'oK');
+
+            $id = $this->model->postAdd($_POST);
+            if (!$id) {
+                $this->view->message('success', 'Ошибка обработки запроса');
+            }
+            $this->model->postUploadImage($_FILES['img']['tmp_name'], $id);
+            $this->view->message('success', 'пост добавлен');
         }
         $this->view->render('добавить пост');
     }

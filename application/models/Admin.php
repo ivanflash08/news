@@ -42,9 +42,25 @@ class Admin extends Model
             $this->error = 'Добавте пожалуйста изображение';
             return false;
         }
-
         return true;
     }
 
+    public function postAdd($post)
+    {
+        $params = [
+            'id' => '',
+            'name' => $post['name'],
+            'description' => $post['description'],
+            'text' => $post['text'],
+            'dates' =>  date("Y-m-d H:i:s"),
+        ];
+        $this ->db->query('INSERT INTO posts VALUES ( :id, :name, :description, :text, :dates)', $params);
+
+        return $this->db->lastInsertId();
+    }
+
+    public function postUploadImage($path,$id) {
+        move_uploaded_file($path, 'public/materials/'.$id.'.jpg');
+    }
 
 }
