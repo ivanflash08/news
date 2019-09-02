@@ -4,7 +4,7 @@
             <div class="card-header"><b><?php echo $title; ?></b></div>
             <div class="card-body">
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-9">
                         <form action="/admin/add" method="post">
                             <div class="form-group">
                                 <label>Название</label>

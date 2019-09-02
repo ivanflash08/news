@@ -74,13 +74,13 @@
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit enim.</p>
                 <a href="fullwidth.html" class="rm">Read More</a>
             </article>
+            <div class="clearfix center"><?php echo $pagination; ?></div>
+
         </div>
 
     </section>
-    <!--__--__--__--__--  T H E    F O O T E R --__--__--__--___--__--__--__-->
     <footer>
-        <p>Copyright &copy 2013 Source X by Youssef Nassim and Zakariya Lhamri, design from <a href="http://geeksband.com">Geeksband.com</a>. All Rights Reserved.</p>
-    </footer>
+         </footer>
 </div>
 </body>
 </html>

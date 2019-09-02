@@ -1,8 +1,9 @@
-<?php
+<?php /** @noinspection ALL */
 
 namespace application\models;
 
 use application\core\model;
+use \Imagick;
 
 
 class Admin extends Model
@@ -52,15 +53,60 @@ class Admin extends Model
             'name' => $post['name'],
             'description' => $post['description'],
             'text' => $post['text'],
-            'dates' =>  date("Y-m-d H:i:s"),
+            'date' => date("Y-m-d H:i:s"),
         ];
-        $this ->db->query('INSERT INTO posts VALUES ( :id, :name, :description, :text, :dates)', $params);
+        $this->db->query('INSERT INTO posts VALUES (:id, :name, :description, :text, :date)', $params);
 
         return $this->db->lastInsertId();
     }
 
-    public function postUploadImage($path,$id) {
-        move_uploaded_file($path, 'public/materials/'.$id.'.jpg');
+    public function postEdit($post, $id)
+    {
+        $params = [
+            'id' => $id,
+            'name' => $post['name'],
+            'description' => $post['description'],
+            'text' => $post['text'],
+            'date' => date("Y-m-d H:i:s"),
+        ];
+        $this->db->query('UPDATE posts SET name = :name, description = :description, text = :text, date = :date WHERE id = :id', $params);
     }
 
+
+    public function postUploadImage($path, $id)
+    {
+        try {
+            $im = new Imagick($path);
+            $im->cropThumbnailImage(1080, 720, false);
+            $im->setImageCompressionQuality(80);
+            $im->writeImage('/public/materials/' . $id . '.jpg');
+        } catch (\ImagickException $e) {
+            move_uploaded_file($path, 'public/materials/' . $id . '.jpg');
+        }
+    }
+
+    public function isPostExists($id)
+    {
+        $params = [
+            'id' => $id,
+        ];
+        return $this->db->column('SELECT id FROM posts WHERE id = :id', $params);
+    }
+
+    public function postDelete($id)
+    {
+        $params = [
+            'id' => $id,
+        ];
+        $this->db->query('DELETE FROM posts WHERE id = :id', $params);
+        unlink('public/materials/' . $id . '.jpg');
+    }
+
+    public function postData($id)
+    {
+        $params = [
+            'id' => $id,
+        ];
+        return $this->db->row('SELECT * FROM posts WHERE id = :id', $params);
+    }
 }

@@ -6,6 +6,10 @@ return [
         'controller' => 'main',
         'action' => 'index',
     ],
+    'main/index/{id:\d+}' => [
+        'controller' => 'main',
+        'action' => 'index',
+    ],
     'about' => [
         'controller' => 'main',
         'action' => 'about',

@@ -48,20 +48,35 @@ class AdminController extends Controller
 
     public function editAction()
     {
+        if (!$this->model->isPostExists($this->route['id'])) {
+            $this->view->errorCode(404);
+        }
         if (!empty($_POST)) {
             if (!$this->model->postValidate($_POST, 'edit')) {
                 $this->view->message('error', $this->model->error);
             }
-            $this->view->message('success', 'oK');
+            $this->model->postEdit($_POST, $this->route['id']);
+            if ($_FILES['img']){
+                $this->model->postUploadImage($_FILES['img']['tmp_name'], $this->route['id']);
+            }
+            $this->view->message('success', 'Изменения сохранены');
         }
+        $vars = [
+            'data' => $this->model->postData($this->route['id'])[0],
 
-        $this->view->render('Редактировать Пост');
+        ];
+
+        $this->view->render('Редактировать Пост', $vars);
     }
 
     public function deleteAction()
     {
-        debug($this->route);
-        exit('Удалить пост');
+        if (!$this->model->isPostExists($this->route['id'])) {
+            $this->view->errorCode(404);
+        }
+        $this->model->postDelete($this->route['id']);
+        $this->view->redirect('admin/posts');
+//        exit('Удален пост: '.$this->route['id']);
     }
 
     public function logoutAction()
