@@ -37,6 +37,8 @@ class Main extends Model
             'max' => $max,
             'start' => ((($route['page'] ?? 1) - 1) * $max),
         ];
+//        debug($params['start']);
+
         return $this->db->row('SELECT * FROM posts ORDER BY id DESC LIMIT :start, :max', $params);
     }
 }

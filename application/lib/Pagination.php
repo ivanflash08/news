@@ -36,10 +36,10 @@ class Pagination
         }
         if (!is_null($links)) {
             if ($this->current_page > 1) {
-                $links = $this->generateHtml(1, 'Вперед') . $links;
+                $links = $this->generateHtml(1, 'в начало') . $links;
             }
             if ($this->current_page < $this->amount) {
-                $links .= $this->generateHtml($this->amount, 'Назад');
+                $links .= $this->generateHtml($this->amount, 'в конец');
             }
         }
         $html .= $links . ' </ul></nav>';

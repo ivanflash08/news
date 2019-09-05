@@ -1,33 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" href="/public/styles/style.css"/>
-    <link rel="stylesheet" href="/public/styles/nivo-slider.css" type="text/css" media="screen"/>
-    <link rel="stylesheet" href="/public/styles/default/default.css" type="text/css" media="screen"/>
-
-    <title>Source X SRT</title>
-</head>
-<body id="contact">
-<div id="wrapper">
-
-    <!--__--__--__--__--__--  L O G O  &   N A V    B A R --__--___--__--__--__-->
-    <header>
-        <div id="logo">
-            <h1>Source X <span id="ii">II</span> <span id="srt">SRT</span></h1>
-            <div id="tagline">
-                <h2>Just another Geeksband Template !</h2>
-            </div>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="/" id="homenav">главная</a></li>
-                <!--                <li><a href="/post" id="fullwidthnav">Статьи</a></li>-->
-                <li><a href="/contact" id="contactnav">обратная связь</a></li>
-                <li><a href="/about">О нас</a></li>
-            </ul>
-        </nav>
-    </header>
 
     <!--__--__--__--__--  M A I N   C O N T E N T  --__--__--__--___--__--__-->
     <section>

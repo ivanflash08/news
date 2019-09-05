@@ -18,7 +18,13 @@ class Db{
         $stmt = $this->db->prepare($sql);
         if (!empty($params)){
             foreach ($params as $key => $value) {
-                $stmt->bindValue(':'.$key, $value);
+                if (is_int($value)){
+                    $type = PDO::PARAM_INT;
+                }
+                else {
+                    $type = PDO::PARAM_STR;
+                }
+                $stmt->bindValue(':'.$key, $value, $type);
 
             }
         }
