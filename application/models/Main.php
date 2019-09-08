@@ -2,7 +2,7 @@
 
 namespace application\models;
 
-use application\core\model;
+use application\core\Model;
 
 
 class Main extends Model
@@ -35,7 +35,7 @@ class Main extends Model
         $max = 10;
         $params = [
             'max' => $max,
-            'start' => ((($route['page'] ?? 1) - 1) * $max),
+            'start' => (((isset($route['page']) ? $route['page'] : 1) - 1) * $max),
         ];
 //        debug($params['start']);
 
