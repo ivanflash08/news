@@ -12,8 +12,8 @@ class Main extends Model
 
     public function contactValidate($post)
     {
-        $nameLen = iconv_strlen($post['name']);
-        $messageLen = iconv_strlen($post['message']);
+        $nameLen = strlen($post['name']);
+        $messageLen = strlen($post['message']);
 
         if ($nameLen < 3 or $nameLen > 25) {
             $this->error = 'Не коректрная длина имени';

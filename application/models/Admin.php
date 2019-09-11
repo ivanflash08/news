@@ -24,8 +24,8 @@ class Admin extends Model
     public function postValidate($post, $type)
     {
 
-        $nameLen = iconv_strlen($post['name']);
-        $descriptionLen = iconv_strlen($post['description']);
+        $nameLen = strlen($post['name']);
+        $descriptionLen = strlen($post['description']);
 
         if ($nameLen < 3 or $nameLen > 150) {
             $this->error = 'название от 3 до 150 символов';
