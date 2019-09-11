@@ -47,6 +47,7 @@ class MainController extends Controller
         $vars = [
             'data' => $adminModel->postData($this->route['id'])[0],
         ];
+
         $this->view->render('Статья', $vars);
     }
 

@@ -16,7 +16,7 @@
                             </div>
                             <div class="form-group">
                                 <label>Текст</label>
-                                <textarea class="form-control" rows="3" name="text"></textarea>
+                                <textarea name="text" id="editor"></textarea>
                             </div>
                             <div class="form-group">
                                 <label>Изображение</label>

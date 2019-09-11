@@ -3,8 +3,8 @@
 namespace application\controllers;
 
 use application\core\Controller;
-use application\models\Admin;
 use application\lib\Pagination;
+use application\models\Admin;
 use application\models\Main;
 
 class AdminController extends Controller

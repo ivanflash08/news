@@ -8,7 +8,7 @@
         <br>
         <img class="center imgSize" src="/public/materials/<?php echo $data['id']; ?>.jpg" alt=""/>
         <div class="container">
-            <pre width="60%"><?php echo htmlspecialchars($data['text'], ENT_QUOTES); ?></pre>
+            <pre width="60%"><?php echo $data['text']; ?></pre>
         </div>
         <hr>
         <p>Опубликовано : <?php echo htmlspecialchars($data['date'], ENT_QUOTES); ?></p>

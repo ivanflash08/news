@@ -11,7 +11,7 @@
     <script src="/public/scripts/form.js"></script>
     <script src="/public/scripts/popper.js"></script>
     <script src="/public/scripts/bootstrap.min.js"></script>
-<!--    <script src="/public/scripts/core.js"></script>-->
+    <!--    <script src="/public/scripts/core.js"></script>-->
 </head>
 <body class="fixed-nav sticky-footer bg-dark">
 <?php if ($this->route['action'] != 'login'): ?>
@@ -47,11 +47,21 @@
 <?php echo $content; ?>
 <?php if ($this->route['action'] != 'login'): ?>
     <footer class="sticky-footer">
-<!--        <div class="container">-->
-<!--            <div class="text-center">-->
-<!--            </div>-->
-<!--        </div>-->
+        <!--        <div class="container">-->
+        <!--            <div class="text-center">-->
+        <!--            </div>-->
+        <!--        </div>-->
     </footer>
 <?php endif; ?>
+<script src="/public/node_modules/ckeditor/ckeditor.js"></script>
+
+<script>
+    ClassicEditor
+        .create( document.querySelector( '#editor' ) )
+        .catch( error => {
+            console.error( error );
+        } );
+</script>
+
 </body>
 
