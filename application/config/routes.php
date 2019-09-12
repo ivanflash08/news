@@ -44,11 +44,11 @@ return [
         'controller' => 'admin',
         'action' => 'delete',
     ],
+//    'admin/posts' => [
+//        'controller' => 'admin',
+//        'action' => 'posts',
+//    ],
     'admin/posts/{page:\d+}' => [
-        'controller' => 'admin',
-        'action' => 'posts',
-    ],
-        'admin/posts' => [
         'controller' => 'admin',
         'action' => 'posts',
     ],

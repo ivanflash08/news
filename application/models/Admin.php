@@ -26,12 +26,16 @@ class Admin extends Model
 
         $nameLen = strlen($post['name']);
         $descriptionLen = strlen($post['description']);
+        $textLen = strlen($post['text']);
 
         if ($nameLen < 3 or $nameLen > 150) {
             $this->error = 'название от 3 до 150 символов';
             return false;
         } elseif ($descriptionLen < 3 or $descriptionLen > 150) {
             $this->error = 'название от 3 до 150 символов';
+            return false;
+        } elseif ($textLen < 3 or $textLen > 15000) {
+            $this->error = 'текст от 3 до 15000 символов';
             return false;
         }
 

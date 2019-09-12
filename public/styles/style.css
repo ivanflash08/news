@@ -74,17 +74,16 @@ p {
 #wrapper {
     width: 950px;
     margin: 16px auto;
-    background-color: #121212;
+    background-color: #ffffff;
     padding: 20px 20px;
     box-shadow: 0 4px 6px #000;
 }
 
 body {
-    background: url('../images/bg.png') repeat;
+    background: url('../images/bg.jpg') repeat;
     font-family: Source, Tahoma, sans-serif;
-    color: #fff;
+    font-weight: 600 ;
     font-size: 14px;
-    text-shadow: 1px 1px 0px #000;
 }
 
 #srt {
@@ -153,7 +152,7 @@ header h2 {
 }
 
 nav a {
-    color: #fff;
+    color: #242424;
     font-family: LeagueGothic, sans-serif;
     text-decoration: none;
     font-size: 1.5em;
@@ -163,17 +162,25 @@ nav a {
 }
 
 nav {
-    margin: 20px 4px 0 0;
+    margin: 0;
 }
 
 header {
     margin-bottom: 25px;
 }
 
-#home a#homenav, #blog a#blognav, #fullwidth a#fullwidthnav, #contact a#contactnav {
-    color: #b82924;
+#home a#home, #aboutNav a#aboutNav, #fullwidth a#fullwidthNav, #contactNav a#contactNav {
+    color: #3d67b8;
 }
 
+.logo_title {
+    font-size: 1.3rem;
+    height: 50px;
+}
+
+.active{
+    color: #3d67b8;
+}
 /*************** B A N N E R    S T Y L E ******************/
 #banner {
     position: relative;
@@ -221,31 +228,19 @@ header {
     text-align: center;
 }
 
-#line h1, .dline {
-    display: inline-block;
-    *display: inline;
-    zoom: 1;
-    margin: 0 0 0 10px;
-}
+
 
 #line {
     text-align: center;
 }
 
 .imagePrew {
-    width: 300px;
-    height: 170px;
-}
-
-.dline {
-    width: 312px;
-    height: 3px;
-    background: url('../images/bgdline.png') repeat-x;
-    margin-bottom: 10px;
+    width: 600px;
+    height: 340px;
 }
 
 #ourserv article {
-    width: 275px;
+    right: 20px;
     display: inline-block;
     *display: inline;
     zoom: 1;
@@ -280,7 +275,8 @@ header {
     background-color: #F2F2F2;
     padding: 1px 4px;
     display: block;
-    margin-top: 5px;
+    width: 60%;
+    margin: 0 auto 10px;
     box-shadow: 0px 0px 3px #000;
     font-family: LeagueGothic, sans-serif;
     text-transform: uppercase;
@@ -290,7 +286,7 @@ header {
 }
 
 .rm:hover {
-    background-color: #B82924;
+    background-color: #3d67b8;
     color: #121212;
 }
 
@@ -299,8 +295,6 @@ header {
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 45% !important;
-    margin: 20px !important;
     min-height: 300px;
 }
 
@@ -343,18 +337,23 @@ header {
 #latestp {
     margin-left: 20px;
 }
-.pagination{
+
+.pagination {
     color: #898989;
     font-size: 16px;
 }
-.page-item, .page-link{
+
+.page-item, .page-link {
     font-size: 16px;
 }
-.page-link{
-    margin: 0 8px;
+
+.page-link {
+    margin: 0 0px;
 }
-.logo{
+
+.logo {
     width: 200px;
+    height: 130px;
 }
 
 /************* B L O G    S T Y L E  &   C O N T A C T   P A G E *****************************/
@@ -363,6 +362,11 @@ header {
     vertical-align: top;
     *display: inline;
     zoom: 1;
+}
+
+section{
+    margin: 30px 50px 30px 50px;
+
 }
 
 #blog section, #contact section {
@@ -559,6 +563,7 @@ input[type="submit"]:active {
 }
 
 .right {
+    font-size: 0.7rem;
     float: right;
     margin-left: 10px;
 }
@@ -583,9 +588,37 @@ pre {
     white-space: pre-wrap;
 }
 
-.heightDes {
-    min-height: 50px;
+
+
+.line {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
 }
+
+.line:before, .line:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background: #000;
+    z-index: -1;
+    position: relative;
+    vertical-align: middle;
+}
+
+.line:before {
+    right: 15px;
+    margin: 0 0 0 -100%;
+}
+.line:after {
+    left: 15px;
+    margin: 0 -100% 0 0;
+}
+
+.article_wrapper {
+    box-shadow: 0px 0px 65px -15px rgba(87,87,87,0.63);}
 
 /************* F O O T E R     S T Y L E *************************/
 

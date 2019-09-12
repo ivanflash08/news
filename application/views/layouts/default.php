@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/public/styles/style.css" />
     <link rel="stylesheet" href="/public/styles/nivo-slider.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="/public/styles/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/public/styles/bootstrap.min.css">
 
 </head>
 <body id="home">
@@ -14,14 +15,15 @@
     <!--__--__--__--__--__--  L O G O  &   N A V    B A R --__--___--__--__--__-->
     <header>
         <div id="logo">
+            <a href="/">
             <img class="logo" src="/public/images/logo.png" alt="">
+            </a>
         </div>
-        <nav class="right">
+        <nav class="nav nav-tabs mt-3 right">
             <ul>
-                <li><a href="/" id="homenav">Главная</a></li>
-                <!--                <li><a href="/post" id="fullwidthnav">Full width</a></li>-->
-                <li><a href="/contact" id="contactnav">Обратная связь</a></li>
-                <li><a href="/about">Об Авторе</a></li>
+                <li><a href="/" id="homeNav" class="nav-link">Главная</a></li>
+                <li><a href="/contact" id="contactNav" class="nav-link">Обратная связь</a></li>
+                <li><a href="/about" id="aboutNav" class="nav-link">Об Авторе</a></li>
             </ul>
         </nav>
     </header>

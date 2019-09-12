@@ -5,7 +5,7 @@
             <div class="card-body">
                 <div class="row">
                     <div class="col-sm-9">
-                        <form action="/admin/add" method="post">
+                        <form action="add" method="post">
                             <div class="form-group">
                                 <label>Название</label>
                                 <input class="form-control" type="text" name="name">
@@ -16,7 +16,7 @@
                             </div>
                             <div class="form-group">
                                 <label>Текст</label>
-                                <textarea name="text" id="editor"></textarea>
+                                <textarea name="text" id="editor" ></textarea>
                             </div>
                             <div class="form-group">
                                 <label>Изображение</label>
@@ -30,3 +30,11 @@
         </div>
     </div>
 </div>
+<script src="/public/ckeditor/ckeditor.js"></script>
+<script>
+    ClassicEditor
+        .create( document.querySelector( '#editor' ) )
+        .catch( error => {
+            console.error( error );
+        } );
+</script>

@@ -28,6 +28,6 @@
             </div>
         </div>
         <div class="pagination center"><?php echo $pagination; ?></div>
-
     </div>
 </div>
+

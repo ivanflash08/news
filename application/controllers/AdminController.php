@@ -58,7 +58,7 @@ class AdminController extends Controller
                 $this->view->message('error', $this->model->error);
             }
             $this->model->postEdit($_POST, $this->route['id']);
-            if ($_FILES['img']){
+            if ($_FILES['img']) {
                 $this->model->postUploadImage($_FILES['img']['tmp_name'], $this->route['id']);
             }
             $this->view->message('success', 'Изменения сохранены');
@@ -95,6 +95,7 @@ class AdminController extends Controller
             'pagination' => $pagination->get(),
             'list' => $mainModel->postsList($this->route['page']),
         ];
+//        var_dump($vars);
         $this->view->render('Посты', $vars);
     }
 }

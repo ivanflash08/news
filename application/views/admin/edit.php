@@ -17,7 +17,8 @@
                             </div>
                             <div class="form-group">
                                 <label>Текст</label>
-                                <textarea class="form-control" rows="3" name="text"><?php echo htmlspecialchars($data['text'], ENT_QUOTES);?></textarea>
+                                <textarea name="text" id="editor"><?php echo $data['text'];?></textarea>
+<!--                                <textarea class="form-control" rows="3" name="text">--><?php //echo $data['text'];?><!--</textarea>-->
                             </div>
                             <div class="form-group">
                                 <label>Дата публикации</label>
@@ -35,3 +36,11 @@
         </div>
     </div>
 </div>
+<script src="/public/ckeditor/ckeditor.js"></script>
+<script>
+    ClassicEditor
+        .create( document.querySelector( '#editor' ) )
+        .catch( error => {
+            console.error( error );
+        } );
+</script>
