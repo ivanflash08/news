@@ -223,8 +223,8 @@ header {
     font-weight: normal;
     font-size: 27px;
     text-transform: uppercase;
-    color: #f8f8f8;
-    text-shadow: 2px 2px 0 #000;
+    color: #272727;
+    /*text-shadow: 2px 2px 0 #000;*/
     text-align: center;
 }
 
@@ -401,7 +401,7 @@ section{
     font-weight: normal;
     text-transform: uppercase;
     font-size: 22px;
-    text-shadow: 1px 1px 0 #000;
+    /*text-shadow: 1px 1px 0 #000;*/
     word-spacing: 2px;
     margin-bottom: 5px;
 }
@@ -474,38 +474,25 @@ section{
     min-height: 200px;
 }
 
-#singlepost {
-    margin-right: 20px;
+#contactForm{
+    display: flex;
+    flex-direction: column;
 }
 
-/* CONTACT PAGE */
-#contactpost p {
-    margin-bottom: 25px;
-}
-
-input[type="user"] {
-    display: block;
-    float: right;
-    height: 20px;
+input[type="user"]  input[type="mail"] {
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
     width: 280px;
-    padding-left: 3px;
 }
 
-input[type="email"] {
-    display: block;
-    float: right;
-    height: 20px;
-    width: 280px;
-    padding-left: 3px;
-}
-
-#message {
-    display: block;
-    float: right;
-    width: 280px;
-    height: 130px;
-    padding-left: 3px;
-}
+/*#message {*/
+    /*display: block;*/
+    /*float: right;*/
+    /*width: 280px;*/
+    /*height: 130px;*/
+    /*padding-left: 3px;*/
+/*}*/
 
 input[type="submit"] {
     display: block;
@@ -519,10 +506,13 @@ input[type="submit"] {
 }
 
 input, #message {
-    margin-right: 180px;
     background-color: #f8f8f8;
-    border: 2px inset #000;
+    /*border: 2px inset #575757;*/
     border-radius: 3px;
+
+}
+#message{
+    height: 200px;
 }
 
 input[type="submit"]:hover {
@@ -531,6 +521,10 @@ input[type="submit"]:hover {
 
 input[type="submit"]:active {
     border: 2px inset #b2b2b2;
+}
+
+#contactForm input {
+    margin-bottom: 24px;
 }
 
 /************* F U L L  W I D T H   &  S I N G L E   P O S T    S T Y L E*********************/

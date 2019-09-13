@@ -22,8 +22,7 @@
         <nav class="nav nav-tabs mt-3 right">
             <ul>
                 <li><a href="/" id="homeNav" class="nav-link">Главная</a></li>
-                <li><a href="/contact" id="contactNav" class="nav-link">Обратная связь</a></li>
-                <li><a href="/about" id="aboutNav" class="nav-link">Об Авторе</a></li>
+                <li><a href="/about" id="aboutNav" class="nav-link">О Нас</a></li>
             </ul>
         </nav>
     </header>
