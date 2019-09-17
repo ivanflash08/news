@@ -6,6 +6,9 @@ return [
         'about',
         'contact',
         'post',
+        'herbs',
+        'tea',
+        'tinctures',
     ],
     'authorize' => [
 

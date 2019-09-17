@@ -22,6 +22,9 @@
         <nav class="nav nav-tabs mt-3 right">
             <ul>
                 <li><a href="/" id="homeNav" class="nav-link">Главная</a></li>
+                <li><a href="/herbs" id="homeNav" class="nav-link">Травы</a></li>
+                <li><a href="/tea" id="homeNav" class="nav-link">Чаи</a></li>
+                <li><a href="/tinctures" id="homeNav" class="nav-link">Настойки</a></li>
                 <li><a href="/about" id="aboutNav" class="nav-link">О Нас</a></li>
             </ul>
         </nav>

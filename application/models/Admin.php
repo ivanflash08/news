@@ -32,7 +32,7 @@ class Admin extends Model
             $this->error = 'название от 3 до 150 символов';
             return false;
         } elseif ($descriptionLen < 3 or $descriptionLen > 150) {
-            $this->error = 'название от 3 до 150 символов';
+            $this->error = 'Описание от 3 до 150 символов';
             return false;
         } elseif ($textLen < 3 or $textLen > 15000) {
             $this->error = 'текст от 3 до 15000 символов';
@@ -54,9 +54,11 @@ class Admin extends Model
             'description' => $post['description'],
             'text' => $post['text'],
             'date' => date("Y-m-d H:i:s"),
+            'views' => '0',
+            'comments' => '0',
+            'category_id' => $post['category']
         ];
-        $this->db->query('INSERT INTO posts VALUES (:id, :name, :description, :text, :date)', $params);
-
+        $this->db->query('INSERT INTO posts VALUES (:id, :name, :description, :text, :date, :views, :comments, :category_id)', $params);
         return $this->db->lastInsertId();
     }
 
@@ -109,4 +111,5 @@ class Admin extends Model
         ];
         return $this->db->row('SELECT * FROM posts WHERE id = :id', $params);
     }
+
 }

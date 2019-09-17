@@ -3,6 +3,7 @@
 namespace application\controllers;
 
 use application\core\Controller;
+use application\lib\Db;
 use application\lib\Pagination;
 use application\models\Admin;
 use application\models\Main;

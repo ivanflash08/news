@@ -7,6 +7,14 @@
                     <div class="col-sm-9">
                         <form action="add" method="post">
                             <div class="form-group">
+                                <label>категория статьи</label>
+                                <select class="form-control" type="button" name="category">
+                                    <option value="1">категория 1</option>
+                                    <option value="2">категория 2</option>
+                                    <option value="3">Категория 3</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
                                 <label>Название</label>
                                 <input class="form-control" type="text" name="name">
                             </div>

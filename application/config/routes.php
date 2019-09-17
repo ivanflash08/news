@@ -22,6 +22,30 @@ return [
         'controller' => 'main',
         'action' => 'post',
     ],
+    'herbs' => [
+        'controller' => 'main',
+        'action' => 'herbs',
+        ],
+    'herbs/{page:\d+}' => [
+        'controller' => 'main',
+        'action' => 'herbs',
+        ],
+    'tea' => [
+        'controller' => 'main',
+        'action' => 'tea',
+    ],
+    'tea/{page:\d+}' => [
+        'controller' => 'main',
+        'action' => 'tea',
+    ],
+    'tinctures' => [
+        'controller' => 'main',
+        'action' => 'tinctures',
+    ],
+    'tinctures/{page:\d+}' => [
+        'controller' => 'main',
+        'action' => 'tinctures',
+    ],
     //adminController
 
     'admin/login' => [

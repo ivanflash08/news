@@ -28,10 +28,14 @@ class Main extends Model
         return true;
     }
 
-    public function postsCount() {
+    public function postsCount()
+    {
         return $this->db->column('SELECT COUNT(id) FROM posts');
     }
-    public function postsList($route) {
+
+
+    public function postsList($route)
+    {
         $max = 10;
         $params = [
             'max' => $max,
@@ -40,5 +44,46 @@ class Main extends Model
 //        debug($params['start']);
 
         return $this->db->row('SELECT * FROM posts ORDER BY id DESC LIMIT :start, :max', $params);
+    }
+
+    public function herbsCount()
+    {
+        return $this->db->column('SELECT COUNT(id) WHERE category_id = 1 FROM posts');
+    }
+
+    public function herbsList($route)
+    {
+        $max = 10;
+        $params = [
+            'max' => $max,
+            'start' => (((isset($route['page']) ? $route['page'] : 1) - 1) * $max),
+        ];
+//        debug($params['start']);
+
+        return $this->db->row('SELECT * FROM posts WHERE category_id = 1 ORDER BY id DESC LIMIT :start, :max', $params);
+    }
+
+
+    public function teaList($route)
+    {
+        $max = 10;
+        $params = [
+            'max' => $max,
+            'start' => (((isset($route['page']) ? $route['page'] : 1) - 1) * $max),
+        ];
+//        debug($params['start']);
+
+        return $this->db->row('SELECT * FROM posts WHERE category_id = 2 ORDER BY id DESC LIMIT :start, :max', $params);
+    }
+    public function tincturesList($route)
+    {
+        $max = 10;
+        $params = [
+            'max' => $max,
+            'start' => (((isset($route['page']) ? $route['page'] : 1) - 1) * $max),
+        ];
+//        debug($params['start']);
+
+        return $this->db->row('SELECT * FROM posts WHERE category_id = 3 ORDER BY id DESC LIMIT :start, :max', $params);
     }
 }
